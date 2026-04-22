@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Humanis - Unis pour un impact durable</title>
+    <title>Élan Jeunesse - Unis pour un impact durable</title>
     <link rel="icon" type="image/png" href="logo.png">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -31,7 +31,7 @@
         <div class="auth-buttons">
             <button id="theme-toggle" class="theme-toggle"><i class="fas fa-moon"></i></button>
              <a href="https://chat.whatsapp.com/D0OXb4MVId1GcXRwm4uuvv" target="_blank" class="whatsapp-nav-icon" style="color: var(--primary-green); font-size: 1.5rem; margin-right: 15px;"><i class="fab fa-whatsapp"></i></a>
-            <a href="https://chat.whatsapp.com/D0OXb4MVId1GcXRwm4uuvv" target="_blank" class="btn-signup">Rejoindre le Groupe</a>
+            <a href="https://chat.whatsapp.com/D0OXb4MVId1GcXRwm4uuvv" target="_blank" class="btn-signup">Rejoindre la communauté</a>
         </div>
     </nav>
 
@@ -44,7 +44,7 @@
             
             <div class="hero-btns">
                 <a href="https://chat.whatsapp.com/D0OXb4MVId1GcXRwm4uuvv" target="_blank" class="btn-primary">Rejoindre le mouvement <i class="fas fa-arrow-right"></i></a>
-                <a href="plan%20d%20association.pdf" download class="btn-secondary">Télécharger le plan d'association</a>
+                <a href="PLAN STRATEGIQUE DE L’ASSOCIATION  ELAN JEUNESSE (1).pdf" download class="btn-secondary">Télécharger le plan d'association</a>
             </div>
 
             <!-- Sidebar Section (Domaines d'action) -->
@@ -79,7 +79,7 @@
         <div class="hero-image">
             <div class="image-container">
                 <div class="slider-wrapper">
-                    <img src="https://lequotidien.sn/wp-content/uploads/2022/08/inondation.jpg" alt="Inondations au Sénégal">
+                    <img src="https://s.rfi.fr/media/display/fdadd116-0394-11ec-be71-005056bf30b7/w:1280/p:4x3/000_9LE86N.jpg" alt="Inondations au Sénégal">
                     <img src="https://previews.123rf.com/images/siempreverde22/siempreverde221807/siempreverde22180743627/112635032-lome-togo-jan-9-2017-unidentified-togolese-woman-in-colored-dress-carries-a-baby-on-her-back-at.jpg" alt="Mère et enfant au Togo">
                     <img src="https://thumbs.dreamstime.com/b/jeu-d-enfants-pauvre-africain-sur-la-rue-100477933.jpg?w=992" alt="Enfants en Afrique">
                     <img src="https://img.lemde.fr/2019/12/26/301/0/3600/1800/1440/720/60/0/3e0ac93_4k87KK3w8yEnQAWomlJtru1m.jpg" alt="Défis climatiques">
@@ -215,6 +215,17 @@
                 <img src="sn_service.png" alt="SN Service">
             </a>
         </div>
+
+        <!-- Sous-section Devenir Partenaire -->
+        <div class="reveal" style="margin-top: 50px; text-align: center; background: var(--card-bg); padding: 40px; border-radius: 24px; border: 1px solid var(--border-color); box-shadow: 0 10px 30px rgba(0,0,0,0.02);">
+            <h3 style="font-size: 1.8rem; margin-bottom: 15px;">Devenir <span class="gradient-text">Partenaire</span></h3>
+            <p style="max-width: 600px; margin: 0 auto 20px; color: var(--text-muted);">Vous souhaitez accompagner l'Élan Jeunesse dans ses missions sociales et communautaires ? Rejoignez notre réseau de partenaires pour un impact durable.</p>
+            <div style="display: flex; justify-content: center; gap: 30px; flex-wrap: wrap; margin-bottom: 25px;">
+                <span><i class="fas fa-envelope text-green"></i> <strong>Email :</strong> <a href="mailto:jeunesseelan@gmail.com" style="color: inherit; text-decoration: none;">jeunesseelan@gmail.com</a></span>
+                <span><i class="fas fa-phone text-green"></i> <strong>Contact :</strong> +221 76 507 63 72 / +221 692 93 60</span>
+            </div>
+            <a href="contact.html" class="btn-primary">Nous contacter pour un partenariat</a>
+        </div>
     </section>
 
     <!-- Footer -->
@@ -235,7 +246,7 @@
                 </div>
                 <div class="qr-container" style="text-align: left; margin-top: 20px;">
                     <div class="qr-box" style="padding: 8px;">
-                        <img src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=https://votre-site.com" style="width: 80px; height: 80px;" alt="QR Site">
+                        <img src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=https://elanjeunesse.netlify.app" style="width: 80px; height: 80px;" alt="QR Site">
                     </div>
                     <p style="font-size: 0.7rem; margin-top: 5px;">Version mobile</p>
                 </div>
@@ -243,7 +254,7 @@
             <div class="footer-section">
                 <h4>Navigation</h4>
                 <ul class="footer-links">
-                    <li><a href="index.php">Accueil</a></li>
+                    <li><a href="index.html">Accueil</a></li>
                     <li><a href="about.html">À propos</a></li>
                     <li><a href="#">Services</a></li>
                     <li><a href="contact.html">Contact</a></li>

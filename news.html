@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actualités - Élan Jeunesse</title>
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="logo.png" alt="Logo"> ÉLAN <span class="text-blue">JEUNESSE</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="about.html">À Propos</a></li>
+            <li><a href="news.html" class="active">Actualités</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="menu-toggle">
+            <span></span><span></span><span></span>
+        </div>
+        <div class="auth-buttons">
+            <button id="theme-toggle" class="theme-toggle"><i class="fas fa-moon"></i></button>
+            <a href="https://chat.whatsapp.com/D0OXb4MVId1GcXRwm4uuvv" target="_blank" style="color: var(--primary-green); font-size: 1.5rem; margin-right: 15px;"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://chat.whatsapp.com/D0OXb4MVId1GcXRwm4uuvv" target="_blank" class="btn-signup">Rejoindre le Groupe</a>
+        </div>
+    </nav>
+
+    <section class="hero reveal" style="padding-top: 140px; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: auto;">
+        <div class="hero-content" style="max-width: 800px; margin: 0 auto;">
+            <span class="badge">Blog & Annonces</span>
+            <h1>Dernières <span class="gradient-text">Nouvelles</span></h1>
+            <p>Suivez l'impact de nos actions et les événements à venir au sein de notre communauté.</p>
+        </div>
+    </section>
+
+    <section style="padding: 40px 8% 80px;">
+        <div class="news-filters reveal">
+            <button class="filter-btn active" data-filter="all">Tous</button>
+            <button class="filter-btn" data-filter="sante">Santé</button>
+            <button class="filter-btn" data-filter="education">Éducation</button>
+            <button class="filter-btn" data-filter="environnement">Environnement</button>
+            <button class="filter-btn" data-filter="solidarite">Solidarité</button>
+            <button class="filter-btn" data-filter="digital">Digital</button>
+        </div>
+
+        <div class="news-grid">
+            <!-- Article 1 -->
+            <article class="news-card reveal" data-category="solidarite">
+                <div class="news-image">
+                    <img src="https://lequotidien.sn/wp-content/uploads/2022/08/inondation.jpg" alt="Action inondation">
+                </div>
+                <div class="news-body">
+                    <div class="news-meta">
+                        <span><i class="far fa-calendar"></i> 12 Oct. 2024</span>
+                        <span class="text-green">Solidarité</span>
+                    </div>
+                <h3 class="news-title">Projet Solidarité : Plan d'urgence "Soutien Inondations"</h3>
+                    <p style="color: var(--text-muted); font-size: 0.9rem;">Nous préparons une mobilisation citoyenne pour venir en aide à 50 familles de Guédiawaye dès la prochaine saison...</p>
+                    <a href="#" class="text-green" style="text-decoration: none; font-weight: 600; margin-top: 15px; display: inline-block;">Soutenir le projet →</a>
+                </div>
+            </article>
+
+            <!-- Article 2 -->
+            <article class="news-card reveal" data-category="digital">
+                <div class="news-image">
+                    <img src="https://media.licdn.com/dms/image/v2/D4D12AQHwYAtz1F7YmQ/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1701200526880?e=2147483647&v=beta&t=4__X-HFu6OAPFcL3XD-Dpo-bRAJnSwQbxaycG3SxAu4" alt="Formation digital">
+                </div>
+                <div class="news-body">
+                    <div class="news-meta">
+                        <span><i class="far fa-calendar"></i> 05 Oct. 2024</span>
+                        <span class="text-green">Digital</span>
+                    </div>
+                    <h3 class="news-title">Bientôt : Lancement du programme "Inclusion Numérique"</h3>
+                    <p style="color: var(--text-muted); font-size: 0.9rem;">Nous travaillons sur la mise en place d'ateliers gratuits de formation aux outils numériques pour les jeunes de la localité.</p>
+                    <a href="#" class="text-green" style="text-decoration: none; font-weight: 600; margin-top: 15px; display: inline-block;">S'informer →</a>
+                </div>
+            </article>
+
+            <!-- Article 3 -->
+            <article class="news-card reveal" data-category="environnement">
+                <div class="news-image">
+                    <img src="https://www.vivafrik.com/wp-content/uploads/2023/08/Senegal-La-region-de-Matam-organise-des-activites-de-reboisement-organisees-dans-plusieurs-localites-.jpg" alt="Reboisement">
+                </div>
+                <div class="news-body">
+                    <div class="news-meta">
+                        <span><i class="far fa-calendar"></i> 28 Sept. 2024</span>
+                        <span class="text-green">Environnement</span>
+                    </div>
+                    <h3 class="news-title">Projet Reboisement 2026 : Notre vision pour Guédiawaye</h3>
+                    <p style="color: var(--text-muted); font-size: 0.9rem;">Élan Jeunesse vient de commencer son aventure (moins de 3 mois), mais nous projetons déjà de planter 200 arbres d'ici 2026 pour transformer durablement notre cadre de vie.</p>
+                    <a href="#" class="text-green" style="text-decoration: none; font-weight: 600; margin-top: 15px; display: inline-block;">Découvrir le projet →</a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <div class="logo" style="margin-bottom: 20px;">
+                    <img src="logo.png" alt="Logo"> ÉLAN <span class="text-green">JEUNESSE</span>
+                </div>
+                <p>Propulser la nouvelle génération vers l'excellence.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Navigation</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="about.html">À Propos</a></li>
+                    <li><a href="news.html">Actualités</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Légal</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Mentions Légales</a></li>
+                    <li><a href="#">Confidentialité</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom"><p>&copy; 2024 Élan Jeunesse. Tous droits réservés.</p></div>
+    </footer>
+
+    <a href="https://wa.me/221765076372" class="floating-whatsapp" target="_blank" title="Nous contacter sur WhatsApp"><i class="fab fa-whatsapp"></i></a>
+    <a href="tel:+221765076372" class="floating-phone" title="Nous appeler"><i class="fas fa-phone"></i></a>
+
+    <script src="script.js"></script>
+</body>
+</html>
